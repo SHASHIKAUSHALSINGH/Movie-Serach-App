@@ -1,5 +1,11 @@
-const API_KEY = "f6e100d7"; // Your OMDB API key
-const BASE_URL = "http://www.omdbapi.com/";
+// Get API key and base URL from environment variables
+const API_KEY = process.env.REACT_APP_API_KEY || "f6e100d7"; // Fallback for development
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://www.omdbapi.com";
+
+// Log warning if environment variables are not set
+if (!process.env.REACT_APP_API_KEY) {
+  console.warn("OMDB API key not found in environment variables. Using fallback key.");
+}
 
 export const searchMovies = async (query, page = 1) => {
   try {
