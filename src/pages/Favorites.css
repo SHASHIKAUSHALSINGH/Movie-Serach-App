@@ -1,0 +1,112 @@
+.favorites-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.favorites-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(
+    135deg,
+    rgba(220, 38, 127, 0.1) 0%,
+    rgba(255, 105, 180, 0.1) 100%
+  );
+  border-radius: 15px;
+  border: 1px solid rgba(220, 38, 127, 0.2);
+}
+
+.favorites-header h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #dc267f 0%, #ff69b4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.favorites-header p {
+  color: #ccc;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.favorites-count {
+  color: #ff69b4 !important;
+  font-weight: 600;
+  font-size: 1.1rem !important;
+  margin-top: 1rem !important;
+}
+
+.favorites-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  color: #667eea;
+  font-size: 1.2rem;
+}
+
+.no-favorites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 2rem;
+}
+
+.no-favorites-content {
+  text-align: center;
+  max-width: 600px;
+  padding: 3rem;
+  background: linear-gradient(
+    135deg,
+    rgba(102, 126, 234, 0.1) 0%,
+    rgba(118, 75, 162, 0.1) 100%
+  );
+  border-radius: 20px;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+.no-favorites-content h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.no-favorites-content p {
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.favorites-grid-container {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .favorites-page {
+    padding: 1rem;
+  }
+
+  .favorites-header h1 {
+    font-size: 2rem;
+  }
+
+  .no-favorites-content {
+    padding: 2rem;
+  }
+
+  .no-favorites-content h2 {
+    font-size: 2rem;
+  }
+}
