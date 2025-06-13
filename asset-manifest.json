@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Movie-Serach-App/static/css/main.c876ea44.css",
+    "main.js": "/Movie-Serach-App/static/js/main.9efa2c13.js",
+    "index.html": "/Movie-Serach-App/index.html",
+    "main.c876ea44.css.map": "/Movie-Serach-App/static/css/main.c876ea44.css.map",
+    "main.9efa2c13.js.map": "/Movie-Serach-App/static/js/main.9efa2c13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c876ea44.css",
+    "static/js/main.9efa2c13.js"
+  ]
+}
